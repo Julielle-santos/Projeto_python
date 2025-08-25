@@ -29,7 +29,7 @@ while True:
             salario = float(salario.replace(",", "."))
             break
         except ValueError:
-            print(" Valor invalido. Digite por exemplo 998.00 ou 998,00")
+            print(" -Valor invalido. Digite por exemplo 998.00 ou 998,00")
 
     
 print("-----------------------")
@@ -52,7 +52,7 @@ while True :
             perc_bonus = float(perc_bonus.replace(",", "."))
             break
         except ValueError:
-            print(" Valor invalido. Digite por exemplo 1.0 ou 1,0")
+            print(" -Valor invalido. Digite por exemplo 1.0 ou 1,0")
     
 
 valor_bonus = ((1000 + salario) * (perc_bonus / 100))
